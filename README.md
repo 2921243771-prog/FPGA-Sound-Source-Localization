@@ -4,6 +4,8 @@
 
 开发环境：**Vivado / Xilinx SDK 2018.3**，器件 `xc7z020clg400-1`。
 
+PS 应用入口：[`sdk/mic_app2/src/main.c`](sdk/mic_app2/src/main.c)。
+
 ## 数据流程
 
 ```text

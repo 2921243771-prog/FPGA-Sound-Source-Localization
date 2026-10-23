@@ -6,7 +6,8 @@
     "SDK hardware exports and bitstreams preserve their individual timestamps; do not assume they were all generated from the same source revision.",
     "Build caches, IDE workspace state, logs, native libraries and checkpoints are omitted. Regenerate with Vivado/SDK 2018.3.",
     "gcc_phat and backups preserve historical experiments, not the active pipeline.",
-    "Five generated module wiring README documents were removed at the project owner's request."
+    "Five generated module wiring README documents were removed at the project owner's request.",
+    "Current mic_app2 entry renamed to main.c; restored the existing PS application entry because the former helloworld.c duplicated localize_2d.c and contained no main(). ARM compilation and ELF linking verified."
   ],
   "external_rtl_imports": [
     {
@@ -616,9 +617,9 @@
     {
       "path": "ps_localization/install_sdk.ps1",
       "group": "development",
-      "bytes": 1853,
-      "source_modified_utc": "2026-10-21T11:18:25.397948+00:00",
-      "sha256": "b52d5947cbd647ae969ebe4c60e72ff0c61a917be7884ff5cff8d490087981ea"
+      "bytes": 2277,
+      "source_modified_utc": "2026-10-23T09:03:10.541321+00:00",
+      "sha256": "4c275a15f02037123a8dcaa87a4689df631a9486b195131873cce6bab56dfacf"
     },
     {
       "path": "ps_localization/localize_2d.c",
@@ -658,9 +659,9 @@
     {
       "path": "ps_localization/README.md",
       "group": "development",
-      "bytes": 6086,
-      "source_modified_utc": "2026-10-21T11:37:09.552027+00:00",
-      "sha256": "6369c88eaeb01c2fa4c6aa5badb5425128063ab5b199916f0fc26f33a1189e0b"
+      "bytes": 1,
+      "source_modified_utc": "2026-10-23T09:03:10.813004+00:00",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "path": "ps_localization/test_localize_2d.c",
@@ -10470,11 +10471,11 @@
       "sha256": "bff554e7041a56a35c4f2121b5d5ea364cdc6332bc802b3ef2012a4cce0185ad"
     },
     {
-      "path": "sdk/mic_app2/src/helloworld.c",
+      "path": "sdk/mic_app2/src/main.c",
       "group": "sdk_sources",
-      "bytes": 5564,
-      "source_modified_utc": "2026-10-21T11:21:27.376583+00:00",
-      "sha256": "53fc68bfc84f9a9dbdecda4055893a43719b51a9fa566be90861b384ecc8d562"
+      "bytes": 3230,
+      "source_modified_utc": "2026-10-21T11:12:35.595893+00:00",
+      "sha256": "c90fc232aeb0cc76b5b6253d965c491cffa9754fa342a8151163b96641519cfa"
     },
     {
       "path": "sdk/mic_app2/src/lag_packet.h",
