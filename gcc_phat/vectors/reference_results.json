@@ -1,0 +1,142 @@
+[
+  {
+    "frame": 0,
+    "lags": [
+      0,
+      -8,
+      -8,
+      -8,
+      -8,
+      0
+    ],
+    "angle_degrees": 0.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 1,
+    "lags": [
+      6,
+      -6,
+      0,
+      -12,
+      -6,
+      6
+    ],
+    "angle_degrees": 45.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 2,
+    "lags": [
+      8,
+      0,
+      8,
+      -8,
+      0,
+      8
+    ],
+    "angle_degrees": 90.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 3,
+    "lags": [
+      6,
+      6,
+      12,
+      0,
+      6,
+      6
+    ],
+    "angle_degrees": 135.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 4,
+    "lags": [
+      0,
+      8,
+      8,
+      8,
+      8,
+      0
+    ],
+    "angle_degrees": 180.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 5,
+    "lags": [
+      -6,
+      6,
+      0,
+      12,
+      6,
+      -6
+    ],
+    "angle_degrees": -135.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 6,
+    "lags": [
+      -8,
+      0,
+      -8,
+      8,
+      0,
+      -8
+    ],
+    "angle_degrees": -90.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 7,
+    "lags": [
+      -6,
+      -6,
+      -12,
+      0,
+      -6,
+      -6
+    ],
+    "angle_degrees": -45.0,
+    "valid": true,
+    "test": "direction"
+  },
+  {
+    "frame": 8,
+    "lags": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "angle_degrees": 0.0,
+    "valid": false,
+    "test": "silence"
+  },
+  {
+    "frame": 9,
+    "lags": [
+      6,
+      -6,
+      0,
+      -12,
+      -6,
+      6
+    ],
+    "angle_degrees": 45.0,
+    "valid": true,
+    "test": "quiet"
+  }
+]

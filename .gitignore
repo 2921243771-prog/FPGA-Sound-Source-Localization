@@ -1,0 +1,39 @@
+# Vivado / XSim generated state
+.Xil/
+xsim.dir/
+*.cache/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.hw/
+*.log
+*.jou
+*.pb
+*.wdb
+!artifacts/hardware_debug/**/*.wdb
+*.dcp
+*.str
+
+# SDK / native compilation and IDE workspace state
+.metadata/
+.sdk/
+Debug/
+Release/
+RemoteSystemsTempFiles/
+__pycache__/
+*.pyc
+*.o
+*.a
+*.d
+*.exe
+*.dll
+*.so
+*.zip
+
+# Local credentials and editor state
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/

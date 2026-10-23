@@ -1,0 +1,12 @@
+Vivado 2018.3 XSim receiver storage test
+Build directory: C:\Users\ADMINI~1\AppData\Local\Temp\fft_store_489adc80
+
+PASS reset during partial frame
+PASS channel=2, 4096 stored points, gaps, final write, TLAST errors=0
+PASS channel=0, 4096 stored points, gaps, final write, TLAST errors=0
+PASS channel=3, 4096 stored points, gaps, final write, TLAST errors=0
+PASS channel=1, 4096 stored points, gaps, final write, TLAST errors=0
+PASS channel=0, 4096 stored points, gaps, final write, TLAST errors=1
+PASS channel=1, 4096 stored points, gaps, final write, TLAST errors=1
+PASS channel=0, 4096 stored points, gaps, final write, TLAST errors=0
+ALL TESTS PASSED: 7 complete spectra, 4 banks, input gaps, idle protection, reset and TLAST checks

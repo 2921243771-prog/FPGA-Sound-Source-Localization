@@ -1,0 +1,154 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y -330 -defaultsOSRD
+preplace port sample_valid_0 -pg 1 -y 100 -defaultsOSRD
+preplace port clk_in1_0 -pg 1 -y 80 -defaultsOSRD
+preplace port SD_0 -pg 1 -y 100 -defaultsOSRD
+preplace port WS_0 -pg 1 -y 60 -defaultsOSRD
+preplace port SD1_0 -pg 1 -y 60 -defaultsOSRD
+preplace port SCK_0 -pg 1 -y 40 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -310 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 3 -y 890 -defaultsOSRD
+preplace inst FFT_Receive_Store_0 -pg 1 -lvl 7 -y 400 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 6 -y -130 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 6 -y 60 -defaultsOSRD
+preplace inst Lag_To_PS_0 -pg 1 -lvl 9 -y 1100 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 6 -y 630 -defaultsOSRD
+preplace inst PHAT_IFFT_Ctrl_0 -pg 1 -lvl 8 -y 960 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -y 1040 -defaultsOSRD
+preplace inst xfft_0 -pg 1 -lvl 6 -y 380 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 1 -y -100 -defaultsOSRD
+preplace inst fft_ctrl_0 -pg 1 -lvl 4 -y 540 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 9 -y 490 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 5 -y 1020 -defaultsOSRD
+preplace inst Write_Ctrl_0 -pg 1 -lvl 3 -y 670 -defaultsOSRD
+preplace inst FFT_IFFT_Mux_0 -pg 1 -lvl 6 -y 960 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 7 -y -60 -defaultsOSRD
+preplace inst fifo_0 -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 3 -y 380 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 180 -defaultsOSRD
+preplace inst I2S_drive_0 -pg 1 -lvl 3 -y 40 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -y -290 -defaultsOSRD
+preplace netloc FFT_IFFT_Mux_0_core_data_tvalid 1 4 3 1790 360 2040 -10 2800
+preplace netloc fft_ctrl_0_batch_done 1 4 1 1670
+preplace netloc SD1_0_1 1 0 3 NJ 60 30J 20 520J
+preplace netloc clk_in1_0_1 1 0 1 -460
+preplace netloc FFT_Receive_Store_0_ram_ena 1 7 2 N 310 4000
+preplace netloc processing_system7_0_FIXED_IO 1 4 6 NJ -310 N -310 N -310 N -310 N -310 N
+preplace netloc PHAT_IFFT_Ctrl_0_spectrum_enb 1 8 1 4000
+preplace netloc xfft_0_m_axis_data_tlast 1 4 3 1760 670 2050 1280 2780
+preplace netloc fifo_generator_0_empty 1 0 3 -430 0 NJ 0 440
+preplace netloc FFT_IFFT_Mux_0_forward_result_tvalid 1 6 1 2860
+preplace netloc vio_0_probe_out0 1 0 9 -370 10 0 -10 450 790 1190 750 1710 650 2150 1260 2900 660 3390 660 3980
+preplace netloc I2S_drive_0_data1 1 0 4 -420 -200 NJ -200 NJ -200 1120
+preplace netloc I2S_drive_0_data2 1 0 4 -390 20 -40J -60 530J 200 1140
+preplace netloc Lag_To_PS_0_gpio_word0 1 2 8 490J 180 1170J 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 4320
+preplace netloc PHAT_IFFT_Ctrl_0_busy 1 4 5 1800 1340 2110J 1380 NJ 1380 NJ 1380 3890
+preplace netloc I2S_drive_0_WS 1 3 7 NJ 0 NJ 0 N 0 2850 80 3380 60 N 60 N
+preplace netloc PHAT_IFFT_Ctrl_0_spectrum_addrb 1 8 1 3990
+preplace netloc I2S_drive_0_data3 1 0 4 -380 30 -30J -50 550J 170 1120
+preplace netloc fifo_0_fifo_reset 1 1 2 NJ 490 460
+preplace netloc Lag_To_PS_0_gpio_word1 1 2 8 480J 190 1220J 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 4310
+preplace netloc fft_ctrl_0_s_axis_config_tdata 1 4 2 NJ 420 2140
+preplace netloc I2S_drive_0_data4 1 0 4 -350 100 -20J 210 NJ 210 1130
+preplace netloc fifo_0_read_valid 1 1 1 N
+preplace netloc Lag_To_PS_0_gpio_word2 1 1 9 NJ -110 NJ -110 NJ -110 1650J -350 NJ -350 NJ -350 NJ -350 NJ -350 4340
+preplace netloc FFT_IFFT_Mux_0_core_data_tlast 1 4 3 1810 320 2140 170 2720
+preplace netloc FFT_Receive_Store_0_ram_wea 1 7 2 N 330 3980
+preplace netloc processing_system7_0_DDR 1 4 6 NJ -330 2150 -340 N -340 N -340 N -340 4350
+preplace netloc PHAT_IFFT_Ctrl_0_pair_lag 1 4 5 1790 1410 NJ 1410 NJ 1410 NJ 1410 3870
+preplace netloc fft_ctrl_0_addrb 1 3 2 1240 770 1660
+preplace netloc FFT_IFFT_Mux_0_core_data_tdata 1 4 3 1770 300 2030 160 2730
+preplace netloc FFT_IFFT_Mux_0_inverse_config_tready 1 5 4 2160 -360 NJ -360 NJ -360 3970
+preplace netloc Write_Ctrl_0_Write_addra 1 3 1 1160
+preplace netloc fft_ctrl_0_tdata 1 4 2 NJ 500 2130
+preplace netloc FFT_IFFT_Mux_0_forward_result_tlast 1 6 1 2850
+preplace netloc xlconstant_1_dout 1 3 4 1210 1450 NJ 1450 N 1450 2750
+preplace netloc FFT_IFFT_Mux_0_core_result_tready 1 4 3 1780 690 2070 1250 2710
+preplace netloc fifo_generator_0_dout 1 0 3 -410 50 10J -30 500
+preplace netloc fft_ctrl_0_enb 1 3 2 1230 760 1650
+preplace netloc FFT_Receive_Store_0_all_channels_ready 1 4 4 1720 1460 NJ 1460 2950J 1260 3360
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 7 60 -190 NJ -190 NJ -190 1660J -240 2040J -250 NJ -250 3380
+preplace netloc I2S_drive_0_sample_valid 1 0 10 -400 40 -20 -40 540 160 1150J 130 NJ 130 N 130 2850 100 N 100 N 100 N
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 7 -350 -10 -10 -170 NJ -170 NJ -170 1670J -300 N -300 2920
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 4 2 N -250 2030
+preplace netloc xfft_0_s_axis_config_tready 1 5 2 2190 -280 2810
+preplace netloc fft_ctrl_0_s_axis_config_tvalid 1 4 2 1700J 640 2100
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 8 -350 -190 -10J -180 NJ -180 NJ -180 1680J -230 2140J -240 NJ -240 3350
+preplace netloc PHAT_IFFT_Ctrl_0_frame_error 1 4 5 1820 1350 NJ 1350 2940J 1280 NJ 1280 3980
+preplace netloc FFT_Receive_Store_0_ram_dina 1 7 2 3360 430 3990
+preplace netloc I2S_drive_0_SCK 1 3 7 NJ -20 NJ -20 N -20 2860 90 3350 40 N 40 N
+preplace netloc blk_mem_gen_1_doutb 1 7 2 3430 570 NJ
+preplace netloc PHAT_IFFT_Ctrl_0_s_axis_data_tvalid 1 5 4 2210 1340 NJ 1340 NJ 1340 3900
+preplace netloc FFT_IFFT_Mux_0_forward_config_tready 1 4 2 1690J 630 2110
+preplace netloc xfft_0_event_tlast_missing 1 4 3 1740 1430 NJ 1430 2740
+preplace netloc Lag_To_PS_0_gpio_status 1 1 9 -40J -80 NJ -80 NJ -80 1660J -30 NJ -30 2870J 130 NJ 130 NJ 130 4330
+preplace netloc FFT_IFFT_Mux_0_inverse_result_tlast 1 6 2 NJ 1100 3400
+preplace netloc PHAT_IFFT_Ctrl_0_lag12 1 8 1 N
+preplace netloc FFT_Receive_Store_0_frame_done 1 3 5 1240 740 1740J 660 2060J 1290 NJ 1290 3350
+preplace netloc fft_ctrl_0_channel_sel 1 4 3 1680 1420 NJ 1420 2920J
+preplace netloc FFT_IFFT_Mux_0_forward_data_tready 1 4 2 NJ 560 2080
+preplace netloc PHAT_IFFT_Ctrl_0_lag13 1 8 1 N
+preplace netloc FFT_IFFT_Mux_0_inverse_result_tvalid 1 6 2 NJ 1120 3410
+preplace netloc PHAT_IFFT_Ctrl_0_lag14 1 8 1 N
+preplace netloc PHAT_IFFT_Ctrl_0_lag_valid 1 4 5 1810 1390 NJ 1390 2960J 1300 NJ 1300 4000
+preplace netloc PHAT_IFFT_Ctrl_0_s_axis_config_tvalid 1 5 4 2180 1320 NJ 1320 NJ 1320 3920
+preplace netloc fifo_0_mic1 1 1 2 NJ 390 410
+preplace netloc fifo_0_fifo_wr_en 1 1 2 10 340 N
+preplace netloc fifo_0_mic2 1 1 2 40 470 400J
+preplace netloc xfft_0_s_axis_data_tready 1 5 2 2210 -230 2830
+preplace netloc fifo_0_mic3 1 1 2 0 480 390J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 -440 90 0 220 480 220 1180 -160 1720 -260 2150 -270 2880 250 3380 440 4010
+preplace netloc fifo_0_mic4 1 1 2 -30 570 380J
+preplace netloc Write_Ctrl_0_Ram_ready 1 3 2 1200 780 N
+preplace netloc xfft_0_m_axis_data_tvalid 1 4 3 1800 680 2040 1270 2700
+preplace netloc Write_Ctrl_0_wna 1 3 1 1150
+preplace netloc fft_ctrl_0_s_axis_data_tvalid 1 4 2 NJ 540 2090
+preplace netloc fifo_generator_0_full 1 0 3 -360 110 -40J 230 420
+preplace netloc clk_wiz_0_locked 1 1 2 20 -20 560
+preplace netloc fifo_0_fifo_rd_en 1 1 2 10 380 430J
+preplace netloc PHAT_IFFT_Ctrl_0_m_axis_data_tready 1 6 2 2910 1130 3420J
+preplace netloc Write_Ctrl_0_read_toggle 1 0 4 -350 590 NJ 590 550J 550 1120
+preplace netloc PHAT_IFFT_Ctrl_0_pair_done 1 4 5 1770 1400 NJ 1400 NJ 1400 NJ 1400 3880
+preplace netloc xfft_0_m_axis_data_tdata 1 4 3 1820 700 2030 1300 2820
+preplace netloc PHAT_IFFT_Ctrl_0_s_axis_data_tdata 1 5 4 2160 1360 NJ 1360 NJ 1360 3950
+preplace netloc FFT_IFFT_Mux_0_inverse_data_tready 1 5 4 2190 1470 NJ 1470 NJ 1470 3960
+preplace netloc FFT_IFFT_Mux_0_core_config_tdata 1 5 2 2180 -330 2790
+preplace netloc FFT_IFFT_Mux_0_core_config_tvalid 1 5 2 2200 -260 2760
+preplace netloc clk_wiz_0_clk_out1 1 1 2 40 10 470
+preplace netloc SD_0_1 1 0 3 -450J 70 50J 30 510J
+preplace netloc Write_Ctrl_0_ena 1 3 1 1170
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 3 NJ -290 N -290 2900
+preplace netloc PHAT_IFFT_Ctrl_0_lag34 1 8 1 N
+preplace netloc PHAT_IFFT_Ctrl_0_pair_index 1 4 5 1760 1480 NJ 1480 NJ 1480 NJ 1480 3940
+preplace netloc fifo_0_fifo_din 1 1 2 10 320 NJ
+preplace netloc FFT_Receive_Store_0_ram_addra 1 4 5 1750 120 N 120 N 120 3430 410 N
+preplace netloc PHAT_IFFT_Ctrl_0_s_axis_data_tlast 1 5 4 2200 1330 NJ 1330 NJ 1330 3910
+preplace netloc xlconstant_0_dout 1 6 1 2700
+preplace netloc blk_mem_gen_0_doutb 1 3 1 1220
+preplace netloc PHAT_IFFT_Ctrl_0_s_axis_config_tdata 1 5 4 2170 1310 NJ 1310 NJ 1310 3930
+preplace netloc fft_ctrl_0_s_axis_data_tlast 1 4 2 NJ 520 2120
+preplace netloc FFT_IFFT_Mux_0_forward_result_tdata 1 6 1 2840
+preplace netloc PHAT_IFFT_Ctrl_0_lag23 1 8 1 N
+preplace netloc xfft_0_event_tlast_unexpected 1 4 3 1750 1440 NJ 1440 2770
+preplace netloc FFT_Receive_Store_0_tlast_error 1 4 4 1700 1490 NJ 1490 NJ 1490 3340
+preplace netloc PHAT_IFFT_Ctrl_0_lag24 1 8 1 N
+preplace netloc PHAT_IFFT_Ctrl_0_done 1 4 5 1780 1370 NJ 1370 2930J 1270 NJ 1270 3970
+preplace netloc FFT_IFFT_Mux_0_inverse_result_tdata 1 6 2 NJ 1080 3370
+preplace netloc fft_ctrl_0_fft_rx_start 1 4 3 1730J -320 NJ -320 2890
+preplace netloc Write_Ctrl_0_data 1 3 1 1140
+preplace netloc Write_Ctrl_0_Ram_en 1 0 4 -360 580 NJ 580 520J 540 1130
+preplace netloc FFT_Receive_Store_0_m_axis_data_tready 1 6 1 2870
+levelinfo -pg 1 -480 -180 240 940 1450 1940 2480 3150 3650 4160 4370 -top -650 -bot 1600
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_board_cnt":"1",
+   "da_ps7_cnt":"1"
+}

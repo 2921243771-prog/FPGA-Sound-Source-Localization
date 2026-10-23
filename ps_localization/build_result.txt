@@ -1,0 +1,9 @@
+SDK 2018.3 ARM Cortex-A9 build verified, using the current mic_app2 BSP and linker script.
+Both main.c and localize_2d.c: -std=c99 -O2 -Wall -Wextra -Werror -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard.
+Full link includes platform.c, libxil, libm, libgcc and libc.
+ELF: mic_app2_localization.elf
+text=35732 bytes, data=1184 bytes, bss=350472 bytes.
+Application sources installed in D:/FPGA/heelo_world/heelo_world.sdk/mic_app2/src.
+Math-library user extension installed at mic_app2/makefile.defs.
+Original SDK source backup: backups/sdk_20261021_191913.
+Board precision and runtime have not been measured; ELF has not been downloaded by this task.

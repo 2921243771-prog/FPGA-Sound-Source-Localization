@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/FPGA/heelo_world/heelo_world.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4096001fs"></ZoomEndTime>
+      <Cursor1Time time="2048000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="341"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="core_i/fft_ctrl_0_batch_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/fft_ctrl_0_batch_done</obj_property>
+      <obj_property name="ObjectShortName">fft_ctrl_0_batch_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_Receive_Store_0_all_channels_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_Receive_Store_0_all_channels_ready</obj_property>
+      <obj_property name="ObjectShortName">FFT_Receive_Store_0_all_channels_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_Receive_Store_0_frame_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_Receive_Store_0_frame_done</obj_property>
+      <obj_property name="ObjectShortName">FFT_Receive_Store_0_frame_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_Receive_Store_0_ram_addra" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_Receive_Store_0_ram_addra[13:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_Receive_Store_0_ram_addra[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_Receive_Store_0_tlast_error" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_Receive_Store_0_tlast_error</obj_property>
+      <obj_property name="ObjectShortName">FFT_Receive_Store_0_tlast_error</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/Write_Ctrl_0_Ram_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/Write_Ctrl_0_Ram_ready</obj_property>
+      <obj_property name="ObjectShortName">Write_Ctrl_0_Ram_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/xfft_0_event_tlast_missing" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/xfft_0_event_tlast_missing</obj_property>
+      <obj_property name="ObjectShortName">xfft_0_event_tlast_missing</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/xfft_0_event_tlast_unexpected" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/xfft_0_event_tlast_unexpected</obj_property>
+      <obj_property name="ObjectShortName">xfft_0_event_tlast_unexpected</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/xfft_0_m_axis_data_tdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/xfft_0_m_axis_data_tdata[47:0]</obj_property>
+      <obj_property name="ObjectShortName">xfft_0_m_axis_data_tdata[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/xfft_0_m_axis_data_tlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/xfft_0_m_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">xfft_0_m_axis_data_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/xfft_0_m_axis_data_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/xfft_0_m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">xfft_0_m_axis_data_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_IFFT_Mux_0_core_data_tdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_IFFT_Mux_0_core_data_tdata[47:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_IFFT_Mux_0_core_data_tdata[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_IFFT_Mux_0_core_data_tlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_IFFT_Mux_0_core_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">FFT_IFFT_Mux_0_core_data_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_IFFT_Mux_0_core_data_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_IFFT_Mux_0_core_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">FFT_IFFT_Mux_0_core_data_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_IFFT_Mux_0_core_result_tready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_IFFT_Mux_0_core_result_tready</obj_property>
+      <obj_property name="ObjectShortName">FFT_IFFT_Mux_0_core_result_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/FFT_IFFT_Mux_0_forward_config_tready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/FFT_IFFT_Mux_0_forward_config_tready</obj_property>
+      <obj_property name="ObjectShortName">FFT_IFFT_Mux_0_forward_config_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_busy" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_busy</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_busy</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_done</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_frame_error" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_frame_error</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_frame_error</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_lag_valid" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_lag_valid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_lag_valid[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_pair_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_pair_done</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_pair_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_pair_lag" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_pair_lag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_pair_lag[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/fft_ctrl_0_fft_rx_start" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/fft_ctrl_0_fft_rx_start</obj_property>
+      <obj_property name="ObjectShortName">fft_ctrl_0_fft_rx_start</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/fft_ctrl_0_s_axis_config_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/fft_ctrl_0_s_axis_config_tvalid</obj_property>
+      <obj_property name="ObjectShortName">fft_ctrl_0_s_axis_config_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="core_i/PHAT_IFFT_Ctrl_0_pair_index" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">core_i/PHAT_IFFT_Ctrl_0_pair_index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PHAT_IFFT_Ctrl_0_pair_index[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

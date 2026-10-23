@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 21 19:37:18 2026
+# Process ID: 312152
+# Current directory: C:/Users/Administrator/AppData/Local/Temp/i2s_map_5e7f9dd2
+# Command line: xsim.exe -mode tcl -source {xsim.dir/i2s_map_test/xsim_script.tcl}
+# Log file: C:/Users/Administrator/AppData/Local/Temp/i2s_map_5e7f9dd2/xsim.log
+# Journal file: C:/Users/Administrator/AppData/Local/Temp/i2s_map_5e7f9dd2\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/i2s_map_test/xsim_script.tcl
+# xsim {i2s_map_test} -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+PASS I2S mapping: 4 frames, first wire left/right -> mic1/2, second wire right/left -> mic3/4, all 24 bits checked
+$finish called at time : 25691 ns : File "C:/Users/Administrator/AppData/Local/Temp/i2s_map_5e7f9dd2/tb_I2S_channel_mapping.sv" Line 38
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 21 19:37:24 2026...
+

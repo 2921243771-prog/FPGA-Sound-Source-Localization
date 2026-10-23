@@ -1,0 +1,35 @@
+Vivado 2018.3 PHAT/IFFT verification
+Build directory: C:\Users\ADMINI~1\AppData\Local\Temp\phat_ifft_614dacd4
+IFFT uses a numerical reference model, not the vendor IP. Reported cycle times exclude actual vendor FFT processing latency.
+
+ALL PHAT WEIGHT TESTS PASSED: 512 bit-exact vectors, output backpressure, TLAST, zero/extreme inputs and reset
+PAIR case=0 pair=0 lag=-1 peak=1085439 valid=1
+PAIR case=0 pair=1 lag=0 peak=1085439 valid=1
+PAIR case=0 pair=2 lag=-1 peak=1085439 valid=1
+PAIR case=0 pair=3 lag=1 peak=1085439 valid=1
+PAIR case=0 pair=4 lag=0 peak=1085439 valid=1
+PAIR case=0 pair=5 lag=-1 peak=1085439 valid=1
+PASS GCC batch case=0 cycles=626134 ms_at_50MHz=12.522680
+PAIR case=1 pair=0 lag=4 peak=1085439 valid=1
+PAIR case=1 pair=1 lag=-5 peak=1085439 valid=1
+PAIR case=1 pair=2 lag=-1 peak=1085439 valid=1
+PAIR case=1 pair=3 lag=-9 peak=1085439 valid=1
+PAIR case=1 pair=4 lag=-5 peak=1085439 valid=1
+PAIR case=1 pair=5 lag=4 peak=1085439 valid=1
+PASS GCC batch case=1 cycles=626119 ms_at_50MHz=12.522380
+PAIR case=2 pair=0 lag=0 peak=0 valid=0
+PAIR case=2 pair=1 lag=0 peak=0 valid=0
+PAIR case=2 pair=2 lag=0 peak=0 valid=0
+PAIR case=2 pair=3 lag=0 peak=0 valid=0
+PAIR case=2 pair=4 lag=0 peak=0 valid=0
+PAIR case=2 pair=5 lag=0 peak=0 valid=0
+PASS GCC batch case=2 cycles=485127 ms_at_50MHz=9.702540
+PAIR case=4 pair=0 lag=-6 peak=1085439 valid=1
+PAIR case=4 pair=1 lag=-13 peak=1085439 valid=1
+PAIR case=4 pair=2 lag=-6 peak=1085439 valid=1
+PAIR case=4 pair=3 lag=-7 peak=1085439 valid=1
+PAIR case=4 pair=4 lag=0 peak=1085439 valid=1
+PAIR case=4 pair=5 lag=7 peak=1085439 valid=1
+PASS GCC batch case=4 cycles=626130 ms_at_50MHz=12.522600
+PAIR case=3 pair=0 lag=0 peak=1085439 valid=0
+ALL PHAT IFFT TESTS PASSED: 24 complete bit-exact PHAT streams, numerical 4096-point IFFTs, actual diagonal13 lag-13, signed/zero/silent lags, final-point peak, mux isolation, stalls, reset and TLAST fault

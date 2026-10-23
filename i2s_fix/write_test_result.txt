@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 21 17:14:33 2026
+# Process ID: 266224
+# Current directory: C:/Users/Administrator/AppData/Local/Temp/write_ctrl_check_dd387e3c
+# Command line: xsim.exe -mode tcl -source {xsim.dir/write_check/xsim_script.tcl}
+# Log file: C:/Users/Administrator/AppData/Local/Temp/write_ctrl_check_dd387e3c/xsim.log
+# Journal file: C:/Users/Administrator/AppData/Local/Temp/write_ctrl_check_dd387e3c\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/write_check/xsim_script.tcl
+# xsim {write_check} -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+PASS Write_Ctrl: reset-full guard, repeated reset, 3 frames, 6144 exact RAM writes and pops, no extra last pop
+$finish called at time : 126220 ns : File "C:/Users/Administrator/AppData/Local/Temp/write_ctrl_check_dd387e3c/tb_Write_Ctrl.sv" Line 79
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 21 17:14:36 2026...

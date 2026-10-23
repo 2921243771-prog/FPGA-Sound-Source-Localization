@@ -1,0 +1,4 @@
+Part: xc7z020clg400-1
+Target clock period: 20 ns (50 MHz)
+Internal placed/routed worst setup slack (ns): 3.853
+This checks the PHAT controller only. External FFT/RAM IP, complete-design timing and board behavior are excluded.

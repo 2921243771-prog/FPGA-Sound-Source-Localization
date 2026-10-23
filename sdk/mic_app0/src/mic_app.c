@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+
+
+int main()
+{
+    init_platform();
+
+
+
+
+
+    cleanup_platform();
+
+    while(1)
+    {
+
+
+
+
+
+    }
+
+
+
+
+
+    return 0;
+}

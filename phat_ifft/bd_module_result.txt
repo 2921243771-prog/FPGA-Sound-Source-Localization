@@ -1,0 +1,2 @@
+Vivado 2018.3 module-reference creation. Failure flag=0
+Build directory: C:/Users/Administrator/AppData/Local/Temp/phat_bd_272708

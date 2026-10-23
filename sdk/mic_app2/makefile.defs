@@ -1,0 +1,3 @@
+# SDK generated makefiles include this user file after objects.mk.
+# Keep math library dependencies grouped; do not edit generated objects.mk.
+LIBS += -Wl,--start-group,-lm,-lc,-lgcc,--end-group

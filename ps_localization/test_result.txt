@@ -1,0 +1,4 @@
+Near exact TDOA: azimuth=46 range_valid=0 range=0.0724 support=0.0459..0.1143 RMS=0.1112
+Near integer TDOA: azimuth=46 range_valid=0 range=0.0724 support=0.0426..0.1143 RMS=0.3349
+Very near integer TDOA: azimuth=90 range_valid=1 range=0.0394 support=0.0314..0.0459 RMS=0.0327
+PASS localization: actual clockwise microphone numbering, 36 integer-TDOA far bearings, unresolved far range, near exact/integer data, invalid flags, geometry and lag bounds

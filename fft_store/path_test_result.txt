@@ -1,0 +1,6 @@
+Vivado 2018.3 XSim TX/RX integration test
+Build directory: C:\Users\ADMINI~1\AppData\Local\Temp\fft_path_5d64d85c
+
+PASS integrated batch 0: 4 frames, 16384 exact RAM writes, input/output gaps, frame/channel handoff
+PASS integrated batch 1: 4 frames, 16384 exact RAM writes, input/output gaps, frame/channel handoff
+ALL FFT PATH TESTS PASSED: actual TX/RX controllers connected; 32768 stored complex words checked. FFT arithmetic and vendor IP are NOT tested by this model.
