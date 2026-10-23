@@ -5,7 +5,8 @@
     "Vivado XPR external RTL references were copied inside its source tree.",
     "SDK hardware exports and bitstreams preserve their individual timestamps; do not assume they were all generated from the same source revision.",
     "Build caches, IDE workspace state, logs, native libraries and checkpoints are omitted. Regenerate with Vivado/SDK 2018.3.",
-    "gcc_phat and backups preserve historical experiments, not the active pipeline."
+    "gcc_phat and backups preserve historical experiments, not the active pipeline.",
+    "Five generated module wiring README documents were removed at the project owner's request."
   ],
   "external_rtl_imports": [
     {
@@ -60,13 +61,6 @@
       "sha256": "acb708272ded7d0c3acf8098087ee70f17c0fa7d8ca4ec77bb28dd946fb5e26d"
     },
     {
-      "path": "fft_store/FFT_CTRL_README.md",
-      "group": "development",
-      "bytes": 7102,
-      "source_modified_utc": "2026-10-20T12:02:43.368981+00:00",
-      "sha256": "05fc729d8f2f0bff211bf2b50d59a1862798cc86caa8bd5a61d1956dcdc9ada3"
-    },
-    {
       "path": "fft_store/FFT_Receive_Store.v",
       "group": "development",
       "bytes": 4006,
@@ -86,13 +80,6 @@
       "bytes": 479,
       "source_modified_utc": "2026-10-20T12:50:48.940087+00:00",
       "sha256": "19aca28d6b10ed49d3a2866df280c94717cf28489a7d4960b6a869c706168973"
-    },
-    {
-      "path": "fft_store/README.md",
-      "group": "development",
-      "bytes": 4900,
-      "source_modified_utc": "2026-10-20T10:04:55.891623+00:00",
-      "sha256": "9f2743b14d540e24b4191ee5da7723c3dfe65a9ea52fb4049797b50cbdd410f1"
     },
     {
       "path": "fft_store/run_ctrl_test.ps1",
@@ -149,13 +136,6 @@
       "bytes": 65,
       "source_modified_utc": "2026-10-16T13:15:03.339003+00:00",
       "sha256": "b3ae225220452c72e32f1bedceeab2b49853d962ea595c4233f95aa06c0eaf56"
-    },
-    {
-      "path": "gcc_phat/README.md",
-      "group": "development",
-      "bytes": 7146,
-      "source_modified_utc": "2026-10-16T13:27:56.971937+00:00",
-      "sha256": "a2b85c20908519b9274523a4677ae27c2a29047235f23ab4db221d7eb388a912"
     },
     {
       "path": "gcc_phat/rtl/gcc_angle.v",
@@ -403,13 +383,6 @@
       "sha256": "090796809d1a117397c5ec314ff67f01557ac4660955bf0dc1506f99586133b1"
     },
     {
-      "path": "lag_to_ps/README.md",
-      "group": "development",
-      "bytes": 5605,
-      "source_modified_utc": "2026-10-21T10:50:06.927944+00:00",
-      "sha256": "5d80fa7f5079e12fe52c8cceeb7e63906cf8363d0ccd281d1c10e54151003bad"
-    },
-    {
       "path": "lag_to_ps/simulation_result.txt",
       "group": "development",
       "bytes": 1127,
@@ -534,13 +507,6 @@
       "bytes": 2038,
       "source_modified_utc": "2026-10-21T07:28:21.450042+00:00",
       "sha256": "a7f9fa1c1c33c192161f7a62f06904b3b254463f53233bf345267fd4e220718e"
-    },
-    {
-      "path": "phat_ifft/README.md",
-      "group": "development",
-      "bytes": 11068,
-      "source_modified_utc": "2026-10-21T11:15:51.613877+00:00",
-      "sha256": "9c7e91a821d9aebf5a1e92c261caf112f48884859a795e8be2522f745e0d9b1c"
     },
     {
       "path": "phat_ifft/reference.json",
